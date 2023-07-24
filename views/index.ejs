@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Location of ISS</title>
+    <link rel="stylesheet" href="styles/index.css">
+    <link rel="shortcut icon" href="images/icon.png" type="image/x-icon">
+</head>
+
+<body>
+    <div class="container">
+        <div class="first">
+            <h1 class="heading">Track The ISS</>
+                <form action="/getLocation" method="post">
+                    <input type="submit" value="Get Location">
+                </form>
+        </div>
+        <% if (locals.data){ %>
+            <div class="second">
+                <div class="position">
+                    <div class="info">Latitude: <%= data.latitude %> </div>
+                    <div class="info">Longitude: <%= data.longitude %></div>
+                </div>
+                <div class="timezone info">TimeZone: <%= data.timezone_id %></div>
+                <div class="mapButton"><input type="button" onclick="parent.location=`<%= data.map_url %>`" value="Open Google Maps"></input></div>
+            </div>
+        <% } %>
+    </div>
+</body>
+
+</html>
