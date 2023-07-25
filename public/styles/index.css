@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins&family=Ubuntu&display=swap');
 
 * {
     padding: 0;
@@ -8,8 +8,8 @@
 }
 
 body {
-    background: rgb(4, 20, 238);
-    background: linear-gradient(347deg, rgba(4, 20, 238, 1) 22%, rgba(69, 134, 212, 1) 64%);
+    background: rgb(58, 54, 54);
+    background: linear-gradient(315deg, rgba(58, 54, 54, 1) 0%, rgba(140, 145, 152, 1) 76%);
     height: 100vh;
     width: 100%;
     display: flex;
@@ -37,8 +37,9 @@ form {
 }
 
 .heading {
-    color: lightblue;
+    color: whitesmoke;
     letter-spacing: 1px;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 input[type="submit"] {
