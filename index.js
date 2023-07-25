@@ -25,7 +25,6 @@ app.post("/getLocation", async (req, res) => {
         result = finalResponse.data;
         console.log(result);
         res.render("index.ejs", { data: result });
-        // res.redirect("/");
     } catch (error) {
         console.error(`Error Occurs: ${error}`);
     }
