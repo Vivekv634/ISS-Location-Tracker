@@ -14,6 +14,11 @@ ISS Location Tracker is a web application that shows the real-time location of t
 *  Displays reasonable information.
 <br>
 
+## 🪄 App Preview
+https://github.com/Vivekv634/ISS-Location-Tracker/assets/77199174/cd6d7d19-d040-4556-9b6f-735733adc1ec
+
+<br>
+
 ## ⚙️ How to use
 1. To use this web application in your local system, you must download and install [NodeJS](https://nodejs.org/en/download), [Git](https://git-scm.com/) and [VS Code](https://code.visualstudio.com/download).
 2. Clone this repository in your system by pasting the below command in Git bash in your desired location.
